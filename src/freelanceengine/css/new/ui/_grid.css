@@ -1,0 +1,12 @@
+.fre-table {
+  display: table;
+}
+
+.fre-table-row {
+  display: table-row;
+}
+
+.fre-table-col {
+  display: table-cell;
+  padding: 0.1em 0.3em;
+}

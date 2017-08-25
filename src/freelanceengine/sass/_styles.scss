@@ -1,0 +1,89 @@
+/*!
+ * Style Sass All Pages Freelancer EngineThemes (http://enginethemes.com)
+ /*---------------------------------------
+TREE CSS STRUCTURE
+1.IMPORT BOOTSTRAP 3
+2.CUSTOM CSS FOR ALL PAGES
+  2.1 DECLARE PARAMETERS FOR PAGE
+    2.1.1 STICKY MENU
+    2.1.2 POPUP MENU SEARCH
+------------------------------*/
+/*---------------------------
+  1.IMPORT BOOTSTRAP 3
+--------------------------------*/
+@import "_bootstrap";
+/*---------------------------
+  2.CUSTOM CSS FOR ALL PAGES
+--------------------------------*/
+//========== REFACTOR RE-DESIGN ==========//
+
+@import 'new/variable';
+
+
+
+
+@import "_pages";
+/*---------------------------
+  3.CUSTOMIZED BOOTSTRAP FOR PAGE
+--------------------------------*/
+@import "_customized";
+
+
+
+//========== REFACTOR RE-DESIGN ==========//
+
+// @import 'new/variable';
+
+@import 'new/mixins';
+
+//=== Style UI
+@import 'new/ui/ui';
+
+//=== Common
+//
+@import 'new/common';
+
+//=== Style WP
+//
+@import 'new/style-wp';
+
+//=== Hamburger Menu
+//
+@import 'new/hamburgers/hamburgers';
+
+//=== Owl Carousel
+//
+@import 'new/owl-carousel/owl.carousel';
+
+//=== Homepage
+//
+@import 'new/homepage';
+
+//=== Notification page
+//
+@import 'new/page-notification';
+
+//=== Authentication page
+//
+@import 'new/page-authentication';
+
+//=== Post project
+//
+@import 'new/post-project';
+
+//=== Purchase Package
+//
+@import 'new/purchase-package';
+
+
+//=== Project List
+//
+@import 'new/project-list';
+
+//=== Profile List
+//
+@import 'new/profile-list';
+
+//=== Footer
+//
+@import 'new/footer';
